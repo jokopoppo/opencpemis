@@ -18,6 +18,12 @@ php composer.phar install
 php artisan migrate:refresh --seed
 ```
 
+## How to run your application
+
+```
+php -S localhost:8000 -t public
+```
+
 ## Goal
 
 * นักศึกษาหนึ่งคน จะทำโปรเจคหนึ่งโปรเจค
