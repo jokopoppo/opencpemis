@@ -26,3 +26,7 @@ php artisan migrate:refresh --seed
 * หนึ่งโปรเจค มีกรรมการได้หลายคน
 * หนึ่งโปรเจค ต้องมีการบันทีกรหัสวิชา, ตอน, ภาคการศึกษา, ปีการศึกษา
 * หนึ่งโปรเจค มีการสอบสองครั้ง: กลางภาค และปลายภาค ทั้งสองครั้งต้องมีการบันทึกคะแนน
+
+## Troubleshooting
+
+* [ReflectionException](https://stackoverflow.com/questions/26143315/laravel-5-artisan-seed-reflectionexception-class-songstableseeder-does-not-e)
