@@ -15,7 +15,7 @@ class CreateProjectsCommitteesTable extends Migration
     {
         Schema::create('projects_committees', function (Blueprint $table) {
             $table->integer('project_id');
-            $table->string('lecturer_id', 3);
+            $table->string('lecturer_id', 4);
 
             $table->primary(['project_id', 'lecturer_id']);
         });

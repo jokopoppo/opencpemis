@@ -20,7 +20,7 @@ class CreateProjectsTable extends Migration
             $table->string('section_no', 3);
             $table->integer('semester');
             $table->integer('year');
-            $table->string('adviser_id', 3);
+            $table->string('adviser_id', 4);
             $table->float('midterm_score')->nullable();
             $table->float('final_score')->nullable();
         });
