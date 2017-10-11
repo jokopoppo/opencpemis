@@ -17,7 +17,7 @@ class CreateStudentsTable extends Migration
             $table->string('id', 9);
             $table->string('first_name');
             $table->string('last_name');
-            $table->integer('project_id');
+            $table->integer('project_id')->nullable();
 
             $table->primary('id');
         });
